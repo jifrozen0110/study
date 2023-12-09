@@ -17,9 +17,13 @@ branches:
     prefix: refactor/
   - label: style
     prefix: style/
+  - label: 테스트
+    prefix: test/
+  - label: 테스트👍
+    prefix: style/
 commentMessage: 'Branch ${branchName} created for issue: ${issue.title}'
 copyIssueDescriptionToPR: true
-copyIssueLabelsToPR: true
+트copyIssueLabelsToPR: true
 copyIssueAssigneeToPR: true
 copyIssueProjectsToPR: true
 copyIssueMilestoneToPR: true
