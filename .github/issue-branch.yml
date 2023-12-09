@@ -7,20 +7,12 @@ branches:
     prefix: bug/
   - label: etc
     prefix: etc/
-  - label: feat
-    prefix: feat/
-  - label: help wanted
-    prefix: help/
-  - label: markup
-    prefix: markup/
   - label: refactor
     prefix: refactor/
   - label: style
     prefix: style/
-  - label: 테스트
-    prefix: test/
-  - label: 테스트👍
-    prefix: style/
+  - label: *
+    prefix: feat/
 commentMessage: 'Branch ${branchName} created for issue: ${issue.title}'
 copyIssueDescriptionToPR: true
 트copyIssueLabelsToPR: true
